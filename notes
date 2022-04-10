@@ -1,0 +1,8 @@
+Problems encountered with compiling pg_auto_failover
+
+From the postgresql dependency...
+
+1. InstallDev does not install pg_config (Double-check, maybe it was because I did not have a dep on pgsql-server and only libpq at the time)
+2. InstallDev does not install pgxs headerfiles (11.3 is even missing a file altogether, I upgraded to 11.9 locally..)
+3. InstallDev does not install libpgport.a and libpgcommon.a
+
